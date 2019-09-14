@@ -1,0 +1,88 @@
+*{margin:0;padding:0;}
+
+.container_full {width: 100%; height: auto;}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.bg{
+	background-color: #C0C0C0;
+}
+body{
+	background-color: #F2F2F2;
+}
+/* header area start */
+.header-area{
+	margin-top: 20px;
+	overflow: hidden;
+}
+.header-area .logo{
+    width: 50%;
+	min-height: 100px;
+	float: left;
+}
+.logo h2{
+	padding: 30px;
+    display: inline-block;
+    font-size: 35px;
+}
+.header-area .menu{
+	width: 50%;
+	min-height: 100px;
+	float: left;
+}
+.menu h2{
+	text-align: center;
+    padding-top: 30px;
+    font-size: 35px;
+}
+
+/* Galary area start */
+.galary-wrapper{
+	overflow: hidden;
+   margin-top: 20px;
+}
+.galary1, .galary2, .galary3{
+	background-color: #C0C0C0;
+    width: 23%;
+    min-height: 100px;
+	margin-bottom: 20px;
+	float: left;
+	margin-right: 2.65%;
+}
+.galary4{
+	background-color: #C0C0C0;
+    width: 23%;
+    min-height: 100px;
+	margin-bottom: 20px;
+	float: right;
+}
+
+/* Content area start */
+.box_wrapper{
+	overflow: hidden;
+}
+.box1{
+	min-height: 200px;
+    width: 32%;
+    margin-right: 24px;
+    float: left;
+    text-align: center;
+}
+.box1 h2{
+	line-height: 8;
+}
+.no-margin{
+	margin-right: 0;
+}
+
+/* footer area start */
+.footer{
+	min-height: 50px;
+    text-align: center;
+	margin-top: 10px;
+}
+
+.footer h2{
+	padding-top: 10px;
+}
